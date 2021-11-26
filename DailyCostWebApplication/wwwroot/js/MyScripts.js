@@ -1,0 +1,1 @@
+﻿alert ("Message form My Script")

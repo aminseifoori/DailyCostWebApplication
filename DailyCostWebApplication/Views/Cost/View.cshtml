@@ -1,0 +1,17 @@
+﻿@model CostRegisteredViewModel
+@{
+    ViewBag.Title = "Cost View Model";
+}
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+        <div class="card">
+            <div class="card-header">
+                Submitted Cost Data
+            </div>
+            <div class="card-body">
+                @Html.DisplayForModel()
+                @Html.ActionLink("Back To Create Cost", "CreateStronglyTypedView", "Cost")
+            </div>
+        </div>
+    </div>
+</div>

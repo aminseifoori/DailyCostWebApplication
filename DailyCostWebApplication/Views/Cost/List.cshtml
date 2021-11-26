@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Cost>
+
+@{
+    ViewBag.Title = "Cost List";
+}
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Comment</th>
+            <th colspan="3" class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cost in Model)
+        {
+            @*@await Html.PartialAsync("_CostList_PartialView", cost)
+                await Html.RenderPartialAsync("_CostList_PartialView", cost);*@
+            <partial name="_CostList_PartialView" model="cost" />
+        }
+
+    </tbody>
+</table>
+

@@ -1,0 +1,40 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+    @*<h1>@ViewBag.PageTitle</h1>
+        <div>
+            <div>
+                ID: @ViewBag.Cost.ID
+            </div>
+            <div>
+                Amount: @ViewBag.Cost.Amount
+            </div>
+            <div>
+                Category: @ViewBag.Cost.Category
+            </div>
+            <div>
+                Comment: @ViewBag.Cost.Comment
+            </div>
+        </div>*@
+    <h1>@ViewData["PageTitle"]</h1>
+    @{ 
+        var cost = ViewData["Cost"] as DailyCostWebApplication.Models.Cost;
+    }
+    <div>
+        <div>
+            ID: @cost.ID
+        </div>
+        <div>
+            Amount: @cost.Amount
+        </div>
+        <div>
+            Category: @cost.Category
+        </div>
+        <div>
+            Comment: @cost.Comment
+        </div>
+    </div>
+</body>
+</html>
