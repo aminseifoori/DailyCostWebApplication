@@ -33,6 +33,11 @@
             @Html.ValidationMessageFor(m => m.Comment, "", new { style = "color:red" })
         </div>
         <div>
+            @Html.LabelFor(m => m.ConfirmComment, new { @class = "form-lable" })
+            @Html.TextAreaFor(m => m.ConfirmComment, new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.ConfirmComment, "", new { style = "color:red" })
+        </div>
+        <div>
             @Html.Label("PaymentMethods", "Payment Methods", new { @class = "form-lable" })
             @foreach (var PM in Model.PaymentMethods)
             {

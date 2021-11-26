@@ -13,15 +13,20 @@ namespace DailyCostWebApplication.ViewModels
     {
         [Display(Name ="Cost Amount")]
         [Range(0.0,100000.0)]
+        [RegularExpression(@"^?\d+(\.\d{2})? *?$", ErrorMessage = "The amount should be in digits with maximum of 2 decimal")]
         public decimal Amount { get; set; }
         [DisplayFormat(DataFormatString ="{0:dd/MM/yyyy}")]
         [Range(typeof(DateTime),"01/01/1996","01/01/2050")]
         public DateTime Date { get; set; }
         [Required(ErrorMessage ="Comment is mandatory")]
-        //[StringLength(50,MinimumLength =5)]
+        [StringLength(50,MinimumLength =5)]
         //[AllowedCharcterLength]
-        [AllowedCharacterRange(ErrorMessage ="Comment should be between 5 to 10 characters")]
+        //[AllowedCharacterRange(ErrorMessage ="Comment should be between 5 to 10 characters")]
+        [RegularExpression(@"^(\w*\ *\.*\-*\\*\/*)*$", ErrorMessage = "Comment does not accept some special characters")]
         public string Comment { get; set; }
+        [Display(Name = "Confirm Comment")]
+        [Compare("Comment", ErrorMessage = "Mismatched value, Comment & Cofirm Comment should be the same")]
+        public string ConfirmComment { get; set; }
         [Display(Name ="Selected Category")]
         [DisplayFormat(NullDisplayText ="Category Not Selected")]
         public string Category { get; set; }
