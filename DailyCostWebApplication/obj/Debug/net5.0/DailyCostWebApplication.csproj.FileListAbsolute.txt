@@ -130,3 +130,4 @@ D:\Projects\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net5.0\Raz
 D:\Projects\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net5.0\Razor\Views\Shared\DisplayTemplates\DateTime.cshtml.g.cs
 D:\Projects\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net5.0\Razor\Views\Shared\EditorTemplates\DateTime.cshtml.g.cs
 D:\Projects\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net5.0\Razor\Views\Shared\EditorTemplates\string.cshtml.g.cs
+D:\Projects\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net5.0\Razor\Views\Category\Create.cshtml.g.cs

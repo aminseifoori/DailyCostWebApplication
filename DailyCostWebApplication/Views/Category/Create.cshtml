@@ -1,0 +1,23 @@
+﻿@model Category
+@{
+    ViewBag.Title = "Create New Category";
+}
+<form asp-controller="Category" asp-action="Create" method="post" class="mt-5 offset-3 col-6 border border-primary pt-2 pb-2 px-2 py-2">
+    <div>
+        <label asp-for="CategoryName" class="form-label"></label>
+        <input asp-for="CategoryName" class="form-control" />
+        <span asp-validation-for="CategoryName" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Description" class="form-label"></label>
+        <input asp-for="Description" class="form-control" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Active" class="form-label"></label>
+        <select asp-for="Active" class="form-select" asp-items="Html.GetEnumSelectList<CategoryActiveOptions>()"></select>
+        <span asp-validation-for="Active" class="text-danger"></span>
+    </div>
+    <div><button type="submit" class="btn btn-primary mt-2">Create</button></div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+</form>
