@@ -12,16 +12,25 @@ using Microsoft.Extensions.FileProviders;
 using System.IO;
 using DailyCostWebApplication.Models;
 using System.Globalization;
+using Microsoft.EntityFrameworkCore;
 
 namespace DailyCostWebApplication
 {
     public class Startup
     {
+        public IConfiguration Configuration { get; }
+
+        public Startup(IConfiguration configuration)
+        {
+            Configuration = configuration;
+        }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContextPool<WebAppDBContext>
+                (options=> options.UseMySQL(Configuration.GetConnectionString("CostDBConnectionMySQL")));
             //services.AddControllersWithViews().AddXmlSerializerFormatters();
             services.AddControllersWithViews();
             services.AddSingleton<ICostRepository, StaticCostRepository>();

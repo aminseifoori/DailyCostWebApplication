@@ -11,5 +11,6 @@ namespace DailyCostWebApplication.Models
         public WebAppDBContext(DbContextOptions<WebAppDBContext> options) : base(options)
         {
         }
+        public DbSet<Category> Categories { get; set; }
     }
 }
