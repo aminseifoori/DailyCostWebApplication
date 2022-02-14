@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -10,18 +11,19 @@ namespace DailyCostWebApplication.Models
 {
     public class Cost
     {
-        [HiddenInput(DisplayValue =false)]
+        [Key]
         public int ID { get; set; }
-        [Required(ErrorMessage ="Amount property is mandatory")]
+        [Column(TypeName = "decimal(18, 2)")]
+        [Required]
         public decimal Amount { get; set; }
-        //[DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}", ApplyFormatInEditMode = true)]
-        public DateTime Date { get; set; }
-        [StringLength(20,MinimumLength =5,ErrorMessage ="Comment should be between 5 to 20 characters")]
-        [Required(ErrorMessage ="Comment field is mandatory")]
+        [Required]
+        public DateTime RegisteredDate { get; set; }
+        [MaxLength(150)]
         public string Comment { get; set; }
-        public string Category { get; set; }
-        public int PaymentMethod { set; get; }
-        public string PhotoPath { get; set; }
-        public string AltText { get; set; }
+        [Required]
+        public int CategoryID { get; set; }
+        [ForeignKey(nameof(CategoryID))]
+        public virtual Category Category { get; set; }
+        public PaymentMethods PaymentMethod { set; get; }
     }
 }

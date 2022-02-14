@@ -9,19 +9,6 @@ namespace DailyCostWebApplication.Controllers
 {
     public class CategoryController : Controller
     {
-        public IActionResult Create()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Create(Category category)
-        {
-            if (ModelState.IsValid)
-            {
-
-            }
-            return View();
-        }
 
     }
 }

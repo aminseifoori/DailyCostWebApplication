@@ -13,13 +13,6 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
-#line 1 "D:\Projects\DailyCostWebApplication\DailyCostWebApplication\Views\_ViewImports.cshtml"
-using DailyCostWebApplication.ViewModels;
-
-#line default
-#line hidden
-#nullable disable
-#nullable restore
 #line 2 "D:\Projects\DailyCostWebApplication\DailyCostWebApplication\Views\_ViewImports.cshtml"
 using DailyCostWebApplication.Models;
 
@@ -27,7 +20,7 @@ using DailyCostWebApplication.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"283ed48421cedd09e8d7206193581b926cb001ed", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"777d5dddfe6105a48ad36dfbacd8cfc0c6e1946a", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"171588ac1f864626622d70a6444cd73dd624336e", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

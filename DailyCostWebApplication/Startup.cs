@@ -30,11 +30,10 @@ namespace DailyCostWebApplication
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContextPool<WebAppDBContext>
-                (options=> options.UseMySQL(Configuration.GetConnectionString("CostDBConnectionMySQL")));
+                (options=> options.UseSqlServer(Configuration.GetConnectionString("CostDBConnectionSQLServer")));
             //services.AddControllersWithViews().AddXmlSerializerFormatters();
             services.AddControllersWithViews();
             services.AddSingleton<ICostRepository, StaticCostRepository>();
-            services.AddSingleton<IPaymentMethodRepository, StaticPaymentMethodRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

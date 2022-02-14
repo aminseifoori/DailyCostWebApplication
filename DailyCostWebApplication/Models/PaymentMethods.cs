@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace DailyCostWebApplication.Models
 {
-    public interface IPaymentMethodRepository
+    public enum PaymentMethods
     {
-        List<PaymentMethod> GetAll();
-        string GetPaymentMethodbyID(int ID);
+        Cash,
+        Debit,
+        Credit
     }
 }

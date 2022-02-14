@@ -9,11 +9,12 @@ namespace DailyCostWebApplication.Models
     public class Category
     {
         [Key]
-        public string ID { get; set; }
+        public int ID { get; set; }
         [Required]
         public string CategoryName { get; set; }
         public string Description { get; set; }
         [Required]
         public CategoryActiveOptions Active { get; set; }
+        public virtual Cost Cost { get; set; }
     }
 }
