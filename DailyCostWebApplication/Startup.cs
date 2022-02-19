@@ -33,7 +33,8 @@ namespace DailyCostWebApplication
                 (options=> options.UseSqlServer(Configuration.GetConnectionString("CostDBConnectionSQLServer")));
             //services.AddControllersWithViews().AddXmlSerializerFormatters();
             services.AddControllersWithViews();
-            services.AddSingleton<ICostRepository, StaticCostRepository>();
+            //services.AddSingleton<ICostRepository, StaticCostRepository>();
+            services.AddScoped<ICostRepository, SQLServerCostRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

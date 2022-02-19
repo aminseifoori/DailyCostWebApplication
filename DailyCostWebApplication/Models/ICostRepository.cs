@@ -9,5 +9,8 @@ namespace DailyCostWebApplication.Models
     {
         Cost GetCostByID(int id);
         IEnumerable<Cost> GetAllCost();
+        Cost Create(Cost NewCost);
+        Cost Update(Cost UpdateCost);
+        Cost Delete(int id);
     }
 }

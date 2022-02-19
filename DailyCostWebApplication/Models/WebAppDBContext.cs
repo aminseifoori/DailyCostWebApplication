@@ -12,5 +12,6 @@ namespace DailyCostWebApplication.Models
         {
         }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Cost> Costs { get; set; }
     }
 }
