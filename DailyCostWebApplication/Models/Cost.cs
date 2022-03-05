@@ -25,5 +25,6 @@ namespace DailyCostWebApplication.Models
         [ForeignKey(nameof(CategoryID))]
         public virtual Category Category { get; set; }
         public PaymentMethods PaymentMethod { set; get; }
+        public string InvoiceImagePath { get; set; }
     }
 }

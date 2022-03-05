@@ -4,6 +4,7 @@ using DailyCostWebApplication.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DailyCostWebApplication.Migrations
 {
     [DbContext(typeof(WebAppDBContext))]
-    partial class WebAppDBContextModelSnapshot : ModelSnapshot
+    [Migration("20220305152106_SeedingCategoryData")]
+    partial class SeedingCategoryData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -42,7 +44,7 @@ namespace DailyCostWebApplication.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
 
                     b.HasData(
                         new
@@ -58,13 +60,6 @@ namespace DailyCostWebApplication.Migrations
                             Active = 0,
                             CategoryName = "Gerocery",
                             Description = "This categoroy is assigned for recording Gerocery cost"
-                        },
-                        new
-                        {
-                            ID = 3,
-                            Active = 0,
-                            CategoryName = "Rent",
-                            Description = "This categoroy is assigned for recording Rental cost"
                         });
                 });
 
@@ -86,9 +81,6 @@ namespace DailyCostWebApplication.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<string>("InvoiceImagePath")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<int>("PaymentMethod")
                         .HasColumnType("int");
 
@@ -100,7 +92,7 @@ namespace DailyCostWebApplication.Migrations
                     b.HasIndex("CategoryID")
                         .IsUnique();
 
-                    b.ToTable("Costs", (string)null);
+                    b.ToTable("Costs");
                 });
 
             modelBuilder.Entity("DailyCostWebApplication.Models.Cost", b =>

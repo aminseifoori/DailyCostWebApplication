@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
+#nullable disable
+
 namespace DailyCostWebApplication.Migrations
 {
     public partial class InitDB : Migration
@@ -23,7 +25,7 @@ namespace DailyCostWebApplication.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Cost",
+                name: "Costs",
                 columns: table => new
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
@@ -36,9 +38,9 @@ namespace DailyCostWebApplication.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Cost", x => x.ID);
+                    table.PrimaryKey("PK_Costs", x => x.ID);
                     table.ForeignKey(
-                        name: "FK_Cost_Categories_CategoryID",
+                        name: "FK_Costs_Categories_CategoryID",
                         column: x => x.CategoryID,
                         principalTable: "Categories",
                         principalColumn: "ID",
@@ -46,8 +48,8 @@ namespace DailyCostWebApplication.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Cost_CategoryID",
-                table: "Cost",
+                name: "IX_Costs_CategoryID",
+                table: "Costs",
                 column: "CategoryID",
                 unique: true);
         }
@@ -55,7 +57,7 @@ namespace DailyCostWebApplication.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Cost");
+                name: "Costs");
 
             migrationBuilder.DropTable(
                 name: "Categories");

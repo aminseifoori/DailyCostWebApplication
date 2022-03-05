@@ -7,26 +7,30 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
+#nullable disable
+
 namespace DailyCostWebApplication.Migrations
 {
     [DbContext(typeof(WebAppDBContext))]
-    [Migration("20220214163101_Init-DB")]
-    partial class InitDB
+    [Migration("20220305152841_AddingMoreSeedDatatoCategory")]
+    partial class AddingMoreSeedDatatoCategory
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("Relational:MaxIdentifierLength", 128)
-                .HasAnnotation("ProductVersion", "5.0.13")
-                .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                .HasAnnotation("ProductVersion", "6.0.2")
+                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+
+            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
             modelBuilder.Entity("DailyCostWebApplication.Models.Category", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
                     b.Property<int>("Active")
                         .HasColumnType("int");
@@ -41,14 +45,38 @@ namespace DailyCostWebApplication.Migrations
                     b.HasKey("ID");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            ID = 1,
+                            Active = 0,
+                            CategoryName = "Bill",
+                            Description = "This categoroy is assigned for recording Bill cost"
+                        },
+                        new
+                        {
+                            ID = 2,
+                            Active = 0,
+                            CategoryName = "Gerocery",
+                            Description = "This categoroy is assigned for recording Gerocery cost"
+                        },
+                        new
+                        {
+                            ID = 3,
+                            Active = 0,
+                            CategoryName = "Rent",
+                            Description = "This categoroy is assigned for recording Rental cost"
+                        });
                 });
 
             modelBuilder.Entity("DailyCostWebApplication.Models.Cost", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ID"), 1L, 1);
 
                     b.Property<decimal>("Amount")
                         .HasColumnType("decimal(18,2)");
@@ -71,7 +99,7 @@ namespace DailyCostWebApplication.Migrations
                     b.HasIndex("CategoryID")
                         .IsUnique();
 
-                    b.ToTable("Cost");
+                    b.ToTable("Costs");
                 });
 
             modelBuilder.Entity("DailyCostWebApplication.Models.Cost", b =>
