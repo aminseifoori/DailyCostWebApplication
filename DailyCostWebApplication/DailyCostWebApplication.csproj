@@ -6,9 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="ViewModels\" />
     <Folder Include="Views\Category\" />
-    <Folder Include="Views\Cost\" />
     <Folder Include="wwwroot\css\" />
   </ItemGroup>
 

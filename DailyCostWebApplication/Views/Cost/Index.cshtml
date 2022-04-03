@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Cost>
+
+@{
+    ViewBag.Title = "Cost List";
+}
+<div class="row">
+    <div class=col-3>
+        <a asp-controller="cost" asp-action="create" class="btn btn-primary mx-2 my-2">Create New Cost</a>
+    </div>
+</div>
+<table class="table table-dark">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Amount</th>
+            <th>Category</th>
+            <th>Comment</th>
+            <th>Payment Method</th>
+            <th colspan="3" class="text-center">Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var cost in Model)
+        {
+            <tr>
+                <td>@cost.ID</td>
+                <td>@cost.Amount</td>
+                <td>@cost.CategoryID</td>
+                <td>@cost.Comment</td>
+                <td>@cost.PaymentMethod</td>
+                <form asp-controller="cost" asp-action="delete" asp-route-id="@cost.ID" method="post">
+                <td><a class="btn btn-primary d-block" asp-controller="cost" asp-action="detail" asp-route-id="@cost.ID">View</a></td>
+                <td><a class="btn btn-info btn-block d-block" asp-controller="cost" asp-action="update" asp-route-id="@cost.ID">Edit</a></td>
+                <td><button class="btn btn-danger btn-block d-block" type="submit">Delete</button></td>
+                </form>
+            </tr>
+        }
+    </tbody>
+</table>

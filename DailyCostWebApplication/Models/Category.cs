@@ -15,6 +15,6 @@ namespace DailyCostWebApplication.Models
         public string Description { get; set; }
         [Required]
         public CategoryActiveOptions Active { get; set; }
-        public virtual Cost Cost { get; set; }
+        public virtual List<Cost> Costs { get; set; }
     }
 }

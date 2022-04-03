@@ -35,6 +35,7 @@ namespace DailyCostWebApplication
             services.AddControllersWithViews();
             //services.AddSingleton<ICostRepository, StaticCostRepository>();
             services.AddScoped<ICostRepository, SQLServerCostRepository>();
+            services.AddScoped<ICategoryRepository, SQLServerCategoryRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

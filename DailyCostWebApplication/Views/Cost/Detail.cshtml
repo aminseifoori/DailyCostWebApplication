@@ -1,0 +1,20 @@
+﻿@model Cost
+@{
+    ViewBag.Title = "Cost Detail";
+}
+<div class="row">
+    <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
+        <div class="card">
+            <div class="card-header">
+                Detail Cost ID @Model.ID
+            </div>
+            <div class="card-body">
+                <p class="card-text">Amount: @Model.Amount</p>
+                <p class="card-text">Category: @Model.CategoryID</p>
+                <p class="card-text">Comment: @Model.Comment</p>
+                <p class="card-text">Payment Method: @Model.PaymentMethod</p>
+                <a class="btn btn-primary" asp-controller="cost" asp-action="index">Cost List</a>
+            </div>
+        </div>
+    </div>
+</div>

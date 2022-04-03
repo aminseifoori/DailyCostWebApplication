@@ -1,0 +1,38 @@
+﻿@model Cost
+@{
+    ViewBag.Title = "Create Cost";
+}
+<form asp-controller="Cost" asp-action="Update" method="post" class="mt-5 offset-3 col-6 border border-primary pt-2 pb-2 px-2 py-2">
+    <input  hidden asp-for="ID"/>
+    <div>
+        <label asp-for="Amount" class="form-label"></label>
+        <input asp-for="Amount" class="form-control" />
+        <span asp-validation-for="Amount" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="RegisteredDate" class="form-label"></label>
+        <input asp-for="RegisteredDate" class="form-control" />
+        <span asp-validation-for="RegisteredDate" class="text-danger"></span>
+    </div>
+        <div>
+        <label asp-for="Comment" class="form-label"></label>
+        <input asp-for="Comment" class="form-control" />
+        <span asp-validation-for="Comment" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="CategoryID" class="form-label"></label>
+        <select asp-for=CategoryID asp-items="@ViewBag.Categories" class="form-select"></select>
+    </div>
+    <div>
+        <label asp-for="PaymentMethod" class="form-label"></label>
+        <select asp-for="PaymentMethod" class="form-select" asp-items="Html.GetEnumSelectList<PaymentMethods>()"></select>
+    </div>
+    <div class="row mt-2">
+        <div class="col-3 d-grid">
+            <button type="submit" class="btn btn-primary">Edit</button>
+        </div>
+        <div class="col-3 d-grid">
+            <a asp-action="index" class="btn btn-info">Cost List</a>
+        </div>
+    </div>
+</form>

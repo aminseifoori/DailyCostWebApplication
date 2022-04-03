@@ -1,31 +1,26 @@
-﻿
-using Microsoft.AspNetCore.Mvc;
+﻿using DailyCostWebApplication.Models;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace DailyCostWebApplication.Models
+namespace DailyCostWebApplication.ViewModels
 {
-    public class Cost
+    public class CreateCostViewModel
     {
-        [Key]
-        public int ID { get; set; }
         [Column(TypeName = "decimal(18, 2)")]
         [Required]
+        [DataType(DataType.Currency)]
         public decimal Amount { get; set; }
         [Required]
         [DataType(DataType.Date)]
+        [Display(Name = "Registered Data")]
         public DateTime RegisteredDate { get; set; }
         [MaxLength(150)]
         public string Comment { get; set; }
         [Required]
+        [Display(Name = "Category")]
         public int CategoryID { get; set; }
-        [ForeignKey(nameof(CategoryID))]
-        public virtual Category Category { get; set; }
+        [Display(Name = "Payment Method")]
         public PaymentMethods PaymentMethod { set; get; }
-        public string InvoiceImagePath { get; set; }
     }
 }
