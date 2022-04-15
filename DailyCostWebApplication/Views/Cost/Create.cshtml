@@ -1,4 +1,5 @@
 ﻿@model CreateCostViewModel
+
 @{
     ViewBag.Title = "Create Cost";
 }
@@ -13,7 +14,7 @@
         <input asp-for="RegisteredDate" class="form-control" />
         <span asp-validation-for="RegisteredDate" class="text-danger"></span>
     </div>
-        <div>
+    <div>
         <label asp-for="Comment" class="form-label"></label>
         <input asp-for="Comment" class="form-control" />
         <span asp-validation-for="Comment" class="text-danger"></span>
@@ -21,10 +22,12 @@
     <div>
         <label asp-for="CategoryID" class="form-label"></label>
         <select asp-for=CategoryID asp-items="@ViewBag.Categories" class="form-select"></select>
+        <span asp-validation-for="CategoryID" class="text-danger"></span>
     </div>
     <div>
         <label asp-for="PaymentMethod" class="form-label"></label>
-        <select asp-for="PaymentMethod" class="form-select" asp-items="Html.GetEnumSelectList<PaymentMethods>()"></select>
+        <select asp-for="PaymentMethod" class="form-select" asp-items="@ViewBag.PaymentMethods"></select>
+        <span asp-validation-for="PaymentMethod" class="text-danger"></span>
     </div>
     <div><button type="submit" class="btn btn-primary mt-2">Create</button></div>
 </form>

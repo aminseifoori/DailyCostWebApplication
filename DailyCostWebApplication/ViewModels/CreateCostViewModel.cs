@@ -19,8 +19,10 @@ namespace DailyCostWebApplication.ViewModels
         public string Comment { get; set; }
         [Required]
         [Display(Name = "Category")]
+        [RegularExpression("^\\d+$", ErrorMessage ="Please select a category")]
         public int CategoryID { get; set; }
         [Display(Name = "Payment Method")]
-        public PaymentMethods PaymentMethod { set; get; }
+        [Required(ErrorMessage ="This option is mandetory, please select a payment method")]
+        public PaymentMethods? PaymentMethod { set; get; }
     }
 }

@@ -24,13 +24,7 @@ namespace DailyCostWebApplication.Controllers
         [HttpGet]
         public IActionResult Create()
         {
-            var Categories = categoryRepository.GetAllCategories();
-            List<SelectListItem> CatList = new();
-            foreach (var category in Categories)
-            {
-                CatList.Add(new SelectListItem(category.CategoryName, category.ID.ToString()));
-            }
-            ViewBag.Categories = CatList;
+            LoadDropdownList();
             return View();
         }
         [HttpPost]
@@ -49,14 +43,8 @@ namespace DailyCostWebApplication.Controllers
                 costRepository.Create(cost);
                 return RedirectToAction("Index");
             }
-            var Categories = categoryRepository.GetAllCategories();
-            List<SelectListItem> CatList = new();
-            foreach (var category in Categories)
-            {
-                CatList.Add(new SelectListItem(category.CategoryName, category.ID.ToString()));
-            }
-            ViewBag.Categories = CatList;
-            return View();
+            LoadDropdownList();
+            return View(model);
         }
         [HttpGet]
         public IActionResult Index()
@@ -74,13 +62,7 @@ namespace DailyCostWebApplication.Controllers
         public IActionResult Update(int id)
         {
             var cost = costRepository.GetCostByID(id);
-            var Categories = categoryRepository.GetAllCategories();
-            List<SelectListItem> CatList = new();
-            foreach (var category in Categories)
-            {
-                CatList.Add(new SelectListItem(category.CategoryName, category.ID.ToString()));
-            }
-            ViewBag.Categories = CatList;
+            LoadDropdownList();
             return View(cost);
         }
         [HttpPost]
@@ -91,21 +73,33 @@ namespace DailyCostWebApplication.Controllers
                 costRepository.Update(model);
                 return RedirectToAction("Index");
             }
-            var cost = costRepository.GetCostByID(model.ID);
-            var Categories = categoryRepository.GetAllCategories();
-            List<SelectListItem> CatList = new();
-            foreach (var category in Categories)
-            {
-                CatList.Add(new SelectListItem(category.CategoryName, category.ID.ToString()));
-            }
-            ViewBag.Categories = CatList;
-            return View(cost);
+            LoadDropdownList();
+            return View(model);
         }
         [HttpPost]
         public IActionResult Delete(int id)
         {
             costRepository.Delete(id);
             return RedirectToAction("index");
+        }
+        private void LoadDropdownList()
+        {
+            var Categories = categoryRepository.GetAllCategories();
+            List<SelectListItem> CatList = new();
+            CatList.Add(new SelectListItem("Select a Category", "-1"));
+            foreach (var category in Categories)
+            {
+                CatList.Add(new SelectListItem(category.CategoryName, category.ID.ToString()));
+            }
+            List<SelectListItem> PaymentList = new();
+            PaymentList.Add(new SelectListItem("Select a Payment Method", ""));
+            var PaymentMethod = Enum.GetValues(typeof(PaymentMethods)).Cast<PaymentMethods>().ToList();
+            for (var i = 0; i < PaymentMethod.Count(); i++)
+            {
+                PaymentList.Add(new SelectListItem(PaymentMethod[i].ToString(), i.ToString()));
+            }
+            ViewBag.Categories = CatList;
+            ViewBag.PaymentMethods = PaymentList;
         }
 
 
