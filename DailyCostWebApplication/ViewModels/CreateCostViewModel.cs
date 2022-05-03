@@ -1,4 +1,5 @@
 ﻿using DailyCostWebApplication.Models;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -24,5 +25,6 @@ namespace DailyCostWebApplication.ViewModels
         [Display(Name = "Payment Method")]
         [Required(ErrorMessage ="This option is mandetory, please select a payment method")]
         public PaymentMethods? PaymentMethod { set; get; }
+        public IFormFile UploadFile { get; set; }
     }
 }

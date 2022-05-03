@@ -1,9 +1,12 @@
 ﻿using DailyCostWebApplication.Models;
 using DailyCostWebApplication.ViewModels;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -14,11 +17,14 @@ namespace DailyCostWebApplication.Controllers
     {
         private readonly ICostRepository costRepository;
         private readonly ICategoryRepository categoryRepository;
+        private readonly IWebHostEnvironment webHostEnvironment;
 
-        public CostController(ICostRepository _costRepository, ICategoryRepository _categoryRepository)
+        public CostController(ICostRepository _costRepository, ICategoryRepository _categoryRepository, 
+            IWebHostEnvironment _webHostEnvironment)
         {
             costRepository = _costRepository;
             categoryRepository = _categoryRepository;
+            webHostEnvironment = _webHostEnvironment;
         }
 
         [HttpGet]
@@ -40,6 +46,10 @@ namespace DailyCostWebApplication.Controllers
                     CategoryID = model.CategoryID,
                     PaymentMethod = model.PaymentMethod
                 };
+                if(model.UploadFile != null)
+                {
+                    cost.InvoiceImagePath = UploadFile(model.UploadFile);
+                }
                 costRepository.Create(cost);
                 return RedirectToAction("Index");
             }
@@ -62,15 +72,40 @@ namespace DailyCostWebApplication.Controllers
         public IActionResult Update(int id)
         {
             var cost = costRepository.GetCostByID(id);
+            UpdateCostViewModel model = new()
+            {
+                ID = cost.ID,
+                Amount = cost.Amount,
+                RegisteredDate = cost.RegisteredDate,
+                Comment = cost.Comment,
+                CategoryID = cost.CategoryID,
+                PaymentMethod = cost.PaymentMethod,
+                ExsitingFile = cost.InvoiceImagePath
+            };
             LoadDropdownList();
-            return View(cost);
+            return View(model);
         }
         [HttpPost]
-        public IActionResult Update(Cost model)
+        public IActionResult Update(UpdateCostViewModel model)
         {
             if (ModelState.IsValid)
             {
-                costRepository.Update(model);
+                Cost UpdatedCost = costRepository.GetCostByID(model.ID);
+                UpdatedCost.Amount = model.Amount;
+                UpdatedCost.RegisteredDate = model.RegisteredDate;
+                UpdatedCost.Comment = model.Comment;
+                UpdatedCost.CategoryID = model.CategoryID;
+                UpdatedCost.PaymentMethod = model.PaymentMethod;
+                if(model.UploadFile != null)
+                {
+                    if(UpdatedCost.InvoiceImagePath != null)
+                    {
+                        string ExitingFile = Path.Combine(webHostEnvironment.WebRootPath, "images", UpdatedCost.InvoiceImagePath);
+                        System.IO.File.Delete(ExitingFile);
+                    }
+                    UpdatedCost.InvoiceImagePath = UploadFile(model.UploadFile);
+                }
+                costRepository.Update(UpdatedCost);
                 return RedirectToAction("Index");
             }
             LoadDropdownList();
@@ -79,6 +114,12 @@ namespace DailyCostWebApplication.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
+            Cost cost = costRepository.GetCostByID(id);
+            if (cost.InvoiceImagePath != null)
+            {
+                string ExitingFile = Path.Combine(webHostEnvironment.WebRootPath, "images", cost.InvoiceImagePath);
+                System.IO.File.Delete(ExitingFile);
+            }
             costRepository.Delete(id);
             return RedirectToAction("index");
         }
@@ -100,6 +141,16 @@ namespace DailyCostWebApplication.Controllers
             }
             ViewBag.Categories = CatList;
             ViewBag.PaymentMethods = PaymentList;
+        }
+        private string UploadFile(IFormFile formFile)
+        {
+            string UniqueFileName = Guid.NewGuid().ToString() + "-" + formFile.FileName;
+            string TargetPath = Path.Combine(webHostEnvironment.WebRootPath, "images", UniqueFileName);
+            using (var stream = new FileStream(TargetPath, FileMode.Create))
+            {
+                formFile.CopyTo(stream);
+            }
+            return UniqueFileName;
         }
 
 

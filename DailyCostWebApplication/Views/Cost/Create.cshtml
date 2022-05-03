@@ -3,7 +3,7 @@
 @{
     ViewBag.Title = "Create Cost";
 }
-<form asp-controller="Cost" asp-action="Create" method="post" class="mt-5 offset-3 col-6 border border-primary pt-2 pb-2 px-2 py-2">
+<form enctype="multipart/form-data" asp-controller="Cost" asp-action="Create" method="post" class="mt-5 offset-3 col-6 border border-primary pt-2 pb-2 px-2 py-2">
     <div>
         <label asp-for="Amount" class="form-label"></label>
         <input asp-for="Amount" class="form-control" />
@@ -28,6 +28,10 @@
         <label asp-for="PaymentMethod" class="form-label"></label>
         <select asp-for="PaymentMethod" class="form-select" asp-items="@ViewBag.PaymentMethods"></select>
         <span asp-validation-for="PaymentMethod" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="UploadFile" class="form-label"></label>
+        <input asp-for="UploadFile" class="form-control" />
     </div>
     <div><button type="submit" class="btn btn-primary mt-2">Create</button></div>
 </form>

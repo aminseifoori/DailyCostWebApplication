@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "KTrpg0En+wg8SpJWCdxuCUOEnhiVg876FrvkaScHOj8=",
+  "Hash": "EbTTyu2J7EfJnTiLTrZKn+KLDRiAWrG/b0LsBkTvVV4=",
   "Source": "DailyCostWebApplication",
   "BasePath": "_content/DailyCostWebApplication",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png",
+      "SourceId": "DailyCostWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "BasePath": "_content/DailyCostWebApplication",
+      "RelativePath": "images/22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png"
+    },
+    {
+      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png",
+      "SourceId": "DailyCostWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "BasePath": "_content/DailyCostWebApplication",
+      "RelativePath": "images/3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png"
+    },
     {
       "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\cost.png",
       "SourceId": "DailyCostWebApplication",
@@ -83,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\invoice.png"
+    },
+    {
+      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\no-image.png",
+      "SourceId": "DailyCostWebApplication",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "BasePath": "_content/DailyCostWebApplication",
+      "RelativePath": "images/no-image.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\no-image.png"
     },
     {
       "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\index.html",

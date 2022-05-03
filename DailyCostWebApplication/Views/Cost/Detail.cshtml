@@ -1,10 +1,12 @@
 ﻿@model Cost
 @{
     ViewBag.Title = "Cost Detail";
+    var imagepath = "~/images/" + (Model.InvoiceImagePath ?? "no-image.png");
 }
 <div class="row">
     <div class="col-lg-4 offset-lg-4 col-md-6 offset-md-3 col-12">
         <div class="card">
+            <img  src="@imagepath" class="card-img-top" asp-append-version="true"/>
             <div class="card-header">
                 Detail Cost ID @Model.ID
             </div>
