@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyCostWebApplication.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -12,5 +13,6 @@ namespace DailyCostWebApplication.Models
         Cost Create(Cost NewCost);
         Cost Update(Cost UpdateCost);
         Cost Delete(int id);
+        List<CostList> GetCostList(string searchby, string searchfor);
     }
 }

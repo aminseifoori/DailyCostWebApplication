@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "EbTTyu2J7EfJnTiLTrZKn+KLDRiAWrG/b0LsBkTvVV4=",
+  "Hash": "pgmci1RYQKx1u7+SoDQ1789ukU15ZvvJz/kE4Y8eMmk=",
   "Source": "DailyCostWebApplication",
   "BasePath": "_content/DailyCostWebApplication",
   "Mode": "Default",
@@ -10,19 +10,19 @@
     {
       "Name": "DailyCostWebApplication\\wwwroot",
       "Source": "DailyCostWebApplication",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\474b4504-7e74-41ca-8794-2f3320effb82-invoice1.png",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
-      "RelativePath": "images/22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png",
+      "RelativePath": "images/474b4504-7e74-41ca-8794-2f3320effb82-invoice1.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -31,30 +31,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\22da0386-e5a7-4fd2-a27e-ee717bff0ec1-invoice 2.png"
+      "OriginalItemSpec": "wwwroot\\images\\474b4504-7e74-41ca-8794-2f3320effb82-invoice1.png"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\cost.png",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
-      "BasePath": "_content/DailyCostWebApplication",
-      "RelativePath": "images/3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\images\\3236e6ea-43d7-4a67-8888-06c19634aa5b-invoice1.png"
-    },
-    {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\cost.png",
-      "SourceId": "DailyCostWebApplication",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "images/cost.png",
       "AssetKind": "All",
@@ -68,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\images\\cost.png"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\employee.png",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\employee.png",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "images/employee.png",
       "AssetKind": "All",
@@ -85,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\images\\employee.png"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\image1.jpg",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\image1.jpg",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "images/image1.jpg",
       "AssetKind": "All",
@@ -102,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\images\\image1.jpg"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\invoice.png",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\invoice.png",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "images/invoice.png",
       "AssetKind": "All",
@@ -119,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\images\\invoice.png"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\no-image.png",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\images\\no-image.png",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "images/no-image.png",
       "AssetKind": "All",
@@ -136,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\images\\no-image.png"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\index.html",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\index.html",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -153,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\js\\MyScripts.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\js\\MyScripts.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "js/MyScripts.js",
       "AssetKind": "All",
@@ -170,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\js\\MyScripts.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.css",
       "AssetKind": "All",
@@ -187,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -204,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -221,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -238,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -255,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -272,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -289,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -306,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -323,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -340,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -357,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -374,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -391,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -408,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -425,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -442,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -459,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -476,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -493,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -510,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -527,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -544,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -561,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -578,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -595,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -612,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -629,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -646,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -663,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -680,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -697,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -714,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -731,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -748,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -765,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -782,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -799,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -816,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -833,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -850,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.js",
       "AssetKind": "All",
@@ -867,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -884,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -901,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/bootstrap/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -918,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.js",
       "AssetKind": "All",
@@ -935,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.min.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.min.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.min.js",
       "AssetKind": "All",
@@ -952,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.min.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.min.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.min.map",
       "AssetKind": "All",
@@ -969,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.slim.js",
       "AssetKind": "All",
@@ -986,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.min.js",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.slim.min.js",
       "AssetKind": "All",
@@ -1003,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.js"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\lib\\jquery\\jquery.slim.min.map",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "lib/jquery/jquery.slim.min.map",
       "AssetKind": "All",
@@ -1020,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\jquery.slim.min.map"
     },
     {
-      "Identity": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\myhtml.html",
+      "Identity": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\myhtml.html",
       "SourceId": "DailyCostWebApplication",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
+      "ContentRoot": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\wwwroot\\",
       "BasePath": "_content/DailyCostWebApplication",
       "RelativePath": "myhtml.html",
       "AssetKind": "All",

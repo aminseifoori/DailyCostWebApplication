@@ -57,9 +57,10 @@ namespace DailyCostWebApplication.Controllers
             return View(model);
         }
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult Index(string searchby, string searchfor)
         {
-            var costs = costRepository.GetAllCost();
+            //var costs = costRepository.GetAllCost();
+            var costs = costRepository.GetCostList(searchby, searchfor);
             return View(costs);
         }
         [HttpGet]

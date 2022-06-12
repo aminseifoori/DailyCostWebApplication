@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Cost>
+﻿@model IEnumerable<CostList>
 
 @{
     ViewBag.Title = "Cost List";
@@ -6,6 +6,20 @@
 <div class="row">
     <div class=col-3>
         <a asp-controller="cost" asp-action="create" class="btn btn-primary mx-2 my-2">Create New Cost</a>
+    </div>
+    <div class="col-6 offset-3">
+        <form asp-controller="Cost" asp-action="Index" method="get" class="my-2 mx-2">
+            <div class="input-group">
+                <select class="form-select" id="inputSearch" name="searchby">
+                    <option selected value="">Search by...</option>
+                    <option value="comment">Comment</option>
+                    <option value="category">Category</option>
+                </select>
+                <input name="searchfor" class="form-control" id="inputSearch" aria-describedby="inputSearchComment" aria-label="Search">
+                <button class="btn btn-outline-secondary" type="submit" id="inputSearch">Search</button>
+                <a class="btn btn-outline-primary" type="button" asp-controller="cost" asp-action="index">Clear Search</a>
+            </div>
+        </form>
     </div>
 </div>
 <table class="table table-dark">
@@ -25,7 +39,7 @@
             <tr>
                 <td>@cost.ID</td>
                 <td>@cost.Amount</td>
-                <td>@cost.CategoryID</td>
+                <td>@cost.CategoryName</td>
                 <td>@cost.Comment</td>
                 <td>@cost.PaymentMethod</td>
                 <form asp-controller="cost" asp-action="delete" asp-route-id="@cost.ID" method="post">

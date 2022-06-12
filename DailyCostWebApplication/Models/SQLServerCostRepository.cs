@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyCostWebApplication.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -40,6 +41,40 @@ namespace DailyCostWebApplication.Models
         public Cost GetCostByID(int id)
         {
             return context.Costs.FirstOrDefault(x => x.ID == id);
+        }
+
+        public List<CostList> GetCostList(string searchby, string searchfor)
+        {
+            var CL = context.Costs.Join(context.Categories, costen => costen.CategoryID, caten => caten.ID, (costen, caten) => new { costen, caten }).
+                Select(sel => new 
+                {
+                    sel.costen.ID,
+                    sel.costen.Amount,
+                    sel.costen.Comment,
+                    sel.costen.PaymentMethod,
+                    sel.caten.CategoryName
+                }).ToList();
+            if(searchby == "comment" && searchfor != null)
+            {
+                CL = CL.Where(ser => ser.Comment.ToLower().Contains(searchfor.ToLower())).ToList();
+            }
+            if (searchby == "category" && searchfor != null)
+            {
+                CL = CL.Where(ser => ser.CategoryName.ToLower() == searchfor.ToLower()).ToList();
+            }
+            List<CostList> costList = new();
+            foreach (var cost in CL)
+            {
+                costList.Add(new CostList
+                {
+                    ID = cost.ID,
+                    Amount = cost.Amount,
+                    Comment = cost.Comment,
+                    PaymentMethod = cost.PaymentMethod,
+                    CategoryName = cost.CategoryName
+                });
+            }
+            return costList;
         }
 
         public Cost Update(Cost UpdateCost)

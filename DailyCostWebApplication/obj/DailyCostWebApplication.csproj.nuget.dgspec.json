@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {}
+    "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {
+    "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
+        "projectUniqueName": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
         "projectName": "DailyCostWebApplication",
-        "projectPath": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
+        "projectPath": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
         "packagesPath": "C:\\Users\\Amin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\obj\\",
+        "outputPath": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Amin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -81,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DailyCostWebApplication.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -39,6 +40,11 @@ namespace DailyCostWebApplication.Models
         public Cost GetCostByID(int id)
         {
             return costs.FirstOrDefault(c => c.ID == id);
+        }
+
+        public List<CostList> GetCostList(string serachby, string searchfor)
+        {
+            throw new NotImplementedException();
         }
 
         public Cost Update(Cost UpdateCost)
