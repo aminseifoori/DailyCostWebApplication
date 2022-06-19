@@ -524,3 +524,7 @@ D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\re
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\DailyCostWebApplication.pdb
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\DailyCostWebApplication.genruntimeconfig.cache
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\ref\DailyCostWebApplication.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\JetBrains.Annotations.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\X.PagedList.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\DailyCostWebApplication.MvcApplicationPartsAssemblyInfo.cs

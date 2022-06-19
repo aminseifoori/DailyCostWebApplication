@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore.Relational": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.2",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.2"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.2",
+          "X.PagedList.Mvc.Core": "8.4.3"
         },
         "runtime": {
           "DailyCostWebApplication.dll": {}
@@ -23,6 +24,14 @@
           "lib/netstandard2.0/Humanizer.dll": {
             "assemblyVersion": "2.8.0.0",
             "fileVersion": "2.8.26.1919"
+          }
+        }
+      },
+      "JetBrains.Annotations/2022.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/JetBrains.Annotations.dll": {
+            "assemblyVersion": "4242.42.42.42",
+            "fileVersion": "2022.1.0.0"
           }
         }
       },
@@ -2206,6 +2215,28 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "X.PagedList/8.4.3": {
+        "dependencies": {
+          "JetBrains.Annotations": "2022.1.0"
+        },
+        "runtime": {
+          "lib/net6.0/X.PagedList.dll": {
+            "assemblyVersion": "8.4.3.0",
+            "fileVersion": "8.4.3.0"
+          }
+        }
+      },
+      "X.PagedList.Mvc.Core/8.4.3": {
+        "dependencies": {
+          "X.PagedList": "8.4.3"
+        },
+        "runtime": {
+          "lib/net6.0/X.PagedList.Mvc.Core.dll": {
+            "assemblyVersion": "8.4.3.0",
+            "fileVersion": "8.4.3.0"
+          }
+        }
       }
     }
   },
@@ -2221,6 +2252,13 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "JetBrains.Annotations/2022.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ASfpoFJxiRsC9Xc4TWuPM41Zb/gl64xwfMOhnOZ3RnVWGYIZchjpWQV5zshJgoc/ZxVtgjaF7b577lURj7E6ig==",
+      "path": "jetbrains.annotations/2022.1.0",
+      "hashPath": "jetbrains.annotations.2022.1.0.nupkg.sha512"
     },
     "MessagePack/2.1.152": {
       "type": "package",
@@ -3411,6 +3449,20 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "X.PagedList/8.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wVVbgv++0NmOaUFgNOAky+wt4MdAAwn2Roz/+u+jlEX1s/ELIbbnan70Skhk/um6w5NnM5eC4Kux1GAPjzHOeQ==",
+      "path": "x.pagedlist/8.4.3",
+      "hashPath": "x.pagedlist.8.4.3.nupkg.sha512"
+    },
+    "X.PagedList.Mvc.Core/8.4.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f1M+6o0AGSUGBuIRiXl9PGfoFbymw8uKjcuA1pJb2XkfginndZg1UR9zgppXW0GMLWCMzCoD5uVGD3SSywSimQ==",
+      "path": "x.pagedlist.mvc.core/8.4.3",
+      "hashPath": "x.pagedlist.mvc.core.8.4.3.nupkg.sha512"
     }
   }
 }

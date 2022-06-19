@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<CostList>
-
+@using X.PagedList;
+@using X.PagedList.Mvc.Core;
 @{
     ViewBag.Title = "Cost List";
 }
@@ -51,3 +52,9 @@
         }
     </tbody>
 </table>
+@Html.PagedListPager((IPagedList) Model, page => Url.Action("Index", new {page = page,
+searchfor = @Context.Request.Query["searchfor"], searchby = @Context.Request.Query["searchby"]}),
+new X.PagedList.Web.Common.PagedListRenderOptions {
+    LiElementClasses = new string[] {"page-item"},
+    PageClasses = new string[] { "page-link" }
+})

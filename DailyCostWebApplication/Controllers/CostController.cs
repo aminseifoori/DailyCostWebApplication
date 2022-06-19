@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace DailyCostWebApplication.Controllers
 {
@@ -57,10 +58,10 @@ namespace DailyCostWebApplication.Controllers
             return View(model);
         }
         [HttpGet]
-        public IActionResult Index(string searchby, string searchfor)
+        public IActionResult Index(string searchby, string searchfor, int? page)
         {
             //var costs = costRepository.GetAllCost();
-            var costs = costRepository.GetCostList(searchby, searchfor);
+            var costs = costRepository.GetCostList(searchby, searchfor).ToPagedList(page ?? 1, 5);
             return View(costs);
         }
         [HttpGet]

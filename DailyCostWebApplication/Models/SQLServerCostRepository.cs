@@ -56,7 +56,7 @@ namespace DailyCostWebApplication.Models
                 }).ToList();
             if(searchby == "comment" && searchfor != null)
             {
-                CL = CL.Where(ser => ser.Comment.ToLower().Contains(searchfor.ToLower())).ToList();
+                CL = CL.Where(ser => ser.Comment!=null ? ser.Comment.ToLower().Contains(searchfor.ToLower()) : ser.Comment != null).ToList();
             }
             if (searchby == "category" && searchfor != null)
             {
