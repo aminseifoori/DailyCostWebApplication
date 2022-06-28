@@ -13,6 +13,6 @@ namespace DailyCostWebApplication.Models
         Cost Create(Cost NewCost);
         Cost Update(Cost UpdateCost);
         Cost Delete(int id);
-        List<CostList> GetCostList(string searchby, string searchfor);
+        List<CostList> GetCostList(string searchby, string searchfor, string sortby);
     }
 }

@@ -42,7 +42,7 @@ namespace DailyCostWebApplication.Models
             return costs.FirstOrDefault(c => c.ID == id);
         }
 
-        public List<CostList> GetCostList(string serachby, string searchfor)
+        public List<CostList> GetCostList(string serachby, string searchfor, string sortby)
         {
             throw new NotImplementedException();
         }

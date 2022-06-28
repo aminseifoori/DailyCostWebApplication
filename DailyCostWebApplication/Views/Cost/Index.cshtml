@@ -27,10 +27,22 @@
     <thead>
         <tr>
             <th>ID</th>
-            <th>Amount</th>
+            @{
+                var sortBy = Context.Request.Query["sortby"] == "amount" ? "amountdesc" : "amount";
+            }
+            <th><a asp-action="index" asp-route-sortby="@sortBy" 
+                asp-route-page="@Context.Request.Query["page"]"
+                asp-route-searchby="@Context.Request.Query["searchby"]"
+                asp-route-searchfor="@Context.Request.Query["searchfor"]">Amount</a></th>
             <th>Category</th>
             <th>Comment</th>
-            <th>Payment Method</th>
+            @{
+                sortBy = Context.Request.Query["sortby"] == "paymentmethod" ? "paymentmethoddesc" : "paymentmethod";
+            }
+            <th><a asp-action="index" asp-route-sortby="@sortBy"
+                asp-route-page="@Context.Request.Query["page"]"
+                asp-route-searchby="@Context.Request.Query["searchby"]"
+                asp-route-searchfor="@Context.Request.Query["searchfor"]">Payment Method</a></th>
             <th colspan="3" class="text-center">Actions</th>
         </tr>
     </thead>
@@ -53,7 +65,9 @@
     </tbody>
 </table>
 @Html.PagedListPager((IPagedList) Model, page => Url.Action("Index", new {page = page,
-searchfor = @Context.Request.Query["searchfor"], searchby = @Context.Request.Query["searchby"]}),
+searchfor = @Context.Request.Query["searchfor"],
+searchby = @Context.Request.Query["searchby"],
+sortby = @Context.Request.Query["sortby"]}),
 new X.PagedList.Web.Common.PagedListRenderOptions {
     LiElementClasses = new string[] {"page-item"},
     PageClasses = new string[] { "page-link" }

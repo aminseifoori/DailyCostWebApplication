@@ -43,7 +43,7 @@ namespace DailyCostWebApplication.Models
             return context.Costs.FirstOrDefault(x => x.ID == id);
         }
 
-        public List<CostList> GetCostList(string searchby, string searchfor)
+        public List<CostList> GetCostList(string searchby, string searchfor, string sortby)
         {
             var CL = context.Costs.Join(context.Categories, costen => costen.CategoryID, caten => caten.ID, (costen, caten) => new { costen, caten }).
                 Select(sel => new 
@@ -73,6 +73,23 @@ namespace DailyCostWebApplication.Models
                     PaymentMethod = cost.PaymentMethod,
                     CategoryName = cost.CategoryName
                 });
+            }
+            switch (sortby)
+            {
+                case "amount":
+                    costList = costList.OrderBy(o => o.Amount).ToList();
+                    break;
+                case "amountdesc":
+                    costList = costList.OrderByDescending(o => o.Amount).ToList();
+                    break;
+                case "paymentmethod":
+                    costList = costList.OrderBy(o => o.PaymentMethod).ToList();
+                    break;
+                case "paymentmethoddesc":
+                    costList = costList.OrderByDescending(o => o.PaymentMethod).ToList();
+                    break;
+                default:
+                    break;
             }
             return costList;
         }
