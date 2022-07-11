@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 
 namespace DailyCostWebApplication.Models
 {
@@ -10,6 +11,23 @@ namespace DailyCostWebApplication.Models
         {
             webAppDBContext = _webAppDBContext;
         }
+
+        public IEnumerable<Category> Delete(IEnumerable<int> DeleteList)
+        {
+            try
+            {
+                var DeleteCatList = webAppDBContext.Categories.Where(z => DeleteList.Contains(z.ID)).ToList();
+                webAppDBContext.Categories.RemoveRange(DeleteCatList);
+                webAppDBContext.SaveChanges();
+                return DeleteCatList;
+            }
+            catch
+            {
+                return null;
+            }
+
+        }
+
         public IEnumerable<Category> GetAllCategories()
         {
             return webAppDBContext.Categories;

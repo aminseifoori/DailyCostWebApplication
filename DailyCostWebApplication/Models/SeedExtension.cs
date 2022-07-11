@@ -29,6 +29,7 @@ namespace DailyCostWebApplication.Models
                     Active = CategoryActiveOptions.Yes
                 }
             );
+            modelBuilder.Entity<Cost>().HasOne(c => c.Category).WithMany(c => c.Costs).OnDelete(DeleteBehavior.Restrict);
         }
     }
 }

@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Projects_\DailyCostWebApplication\DailyCostWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

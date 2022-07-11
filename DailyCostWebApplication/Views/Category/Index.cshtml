@@ -1,0 +1,27 @@
+﻿@model IEnumerable<Category>
+@{
+    ViewBag.Title = "Category List";
+}
+<form asp-action="delete" method="post">
+<table class="table table-dark mt-3">
+    <thead>
+        <tr>
+            <th>Select</th>
+            <th>Category Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach (var category in Model)
+            {
+            <tr>
+                <td><input type="checkbox" name="SelectedCatDelete" value="@category.ID"/></td>
+                <td>@category.CategoryName</td>
+                <td>@category.Description</td>
+            </tr>
+            }
+    </tbody>
+</table>
+<button type="submit" class="btn btn-danger">Delete Selected Rows</button>
+</form>
+
