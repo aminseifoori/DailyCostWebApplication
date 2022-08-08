@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace DailyCostWebApplication.Models
@@ -21,7 +23,7 @@ namespace DailyCostWebApplication.Models
                 webAppDBContext.SaveChanges();
                 return DeleteCatList;
             }
-            catch
+            catch (DbUpdateException ex)
             {
                 return null;
             }

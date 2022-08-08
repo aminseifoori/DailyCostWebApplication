@@ -1,0 +1,23 @@
+﻿@{
+    ViewBag.Title = "Error Page";
+}
+@if (ViewBag.DelError == "Yes")
+{
+    <h1 class="alert alert-danger my-5">
+        @ViewBag.DelTitle
+    </h1>
+    <h4 class="alert alert-danger my1">
+        @ViewBag.DelMessage
+    </h4>
+}
+else
+{
+    <h1 class="alert alert-danger my-5">
+        @ViewBag.ErrorTitle
+    </h1>
+    <h4 class="alert alert-danger my1">
+        @ViewBag.ErrorMessage
+    </h4>
+}
+
+

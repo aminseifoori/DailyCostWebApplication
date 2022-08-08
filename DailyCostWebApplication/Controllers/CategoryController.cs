@@ -25,7 +25,14 @@ namespace DailyCostWebApplication.Controllers
         public IActionResult Delete(IEnumerable<int> SelectedCatDelete)
         {
 
-            categoryRepository.Delete(SelectedCatDelete);
+            var delList = categoryRepository.Delete(SelectedCatDelete);
+            if(delList == null)
+            {
+                ViewBag.DelError = "Yes";
+                ViewBag.DelTitle = "Delete operation has not been completed";
+                ViewBag.DelMessage = "This record can not be deleted, beacuse one or more cost record use this category.";
+                return View("Error");
+            }
             return RedirectToAction("Index");
         }
 
