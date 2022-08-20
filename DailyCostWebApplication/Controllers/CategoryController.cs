@@ -22,6 +22,7 @@ namespace DailyCostWebApplication.Controllers
             return View(CatList);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Delete(IEnumerable<int> SelectedCatDelete)
         {
 

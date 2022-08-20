@@ -35,6 +35,7 @@ namespace DailyCostWebApplication.Controllers
             return View();
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Create(CreateCostViewModel model)
         {
             if (ModelState.IsValid)
@@ -88,6 +89,7 @@ namespace DailyCostWebApplication.Controllers
             return View(model);
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public IActionResult Update(UpdateCostViewModel model)
         {
             if (ModelState.IsValid)
@@ -113,6 +115,7 @@ namespace DailyCostWebApplication.Controllers
             LoadDropdownList();
             return View(model);
         }
+        [ValidateAntiForgeryToken]
         [HttpPost]
         public IActionResult Delete(int id)
         {
