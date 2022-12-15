@@ -61,7 +61,6 @@ namespace DailyCostWebApplication.Controllers
         [HttpGet]
         public IActionResult Index(string searchby, string searchfor, int? page, string sortby)
         {
-            //var costs = costRepository.GetAllCost();
             var costs = costRepository.GetCostList(searchby, searchfor,sortby).ToPagedList(page ?? 1, 5);
             return View(costs);
         }

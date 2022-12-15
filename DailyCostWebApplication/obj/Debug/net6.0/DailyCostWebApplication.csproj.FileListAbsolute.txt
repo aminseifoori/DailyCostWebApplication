@@ -528,3 +528,8 @@ D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Je
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\X.PagedList.dll
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
 D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\obj\Debug\net6.0\DailyCostWebApplication.MvcApplicationPartsAssemblyInfo.cs
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

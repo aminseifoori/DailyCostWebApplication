@@ -13,6 +13,7 @@ using System.IO;
 using DailyCostWebApplication.Models;
 using System.Globalization;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace DailyCostWebApplication
 {
@@ -31,6 +32,7 @@ namespace DailyCostWebApplication
         {
             services.AddDbContextPool<WebAppDBContext>
                 (options=> options.UseSqlServer(Configuration.GetConnectionString("CostDBConnectionSQLServer")));
+            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<WebAppDBContext>();
             services.AddControllersWithViews();
             services.AddScoped<ICostRepository, SQLServerCostRepository>();
             services.AddScoped<ICategoryRepository, SQLServerCategoryRepository>();
@@ -52,6 +54,7 @@ namespace DailyCostWebApplication
             }
             app.UseStaticFiles();
             app.UseRouting();
+            app.UseAuthentication();
             
 
             app.UseEndpoints(endpoints =>
