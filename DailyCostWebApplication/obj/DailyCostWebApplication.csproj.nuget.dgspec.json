@@ -1,25 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {}
+    "C:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {}
   },
   "projects": {
-    "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {
+    "C:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
+        "projectUniqueName": "C:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
         "projectName": "DailyCostWebApplication",
-        "projectPath": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
-        "packagesPath": "C:\\Users\\Amin\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects_\\DailyCostWebApplication\\DailyCostWebApplication\\obj\\",
+        "projectPath": "C:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\DailyCostWebApplication.csproj",
+        "packagesPath": "C:\\Users\\amins\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\DailyCostWebApplication\\DailyCostWebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Amin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\amins\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -27,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -96,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,35 @@
+﻿@model CreateUserViewModel
+@{
+    ViewBag.Title = "Create New User";
+}
+<form asp-controller="UserManagment" asp-action="CreateUser" method="post" class="mt-5 offset-3 col-6 border border-primary pt-2 pb-2 px-2 py-2">
+    <div>
+        <label asp-for="Email" class="form-label"></label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="Password" class="form-label"></label>
+        <input asp-for="Password" class="form-control" />
+        <span asp-validation-for="Password" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ConfirmPassword" class="form-label"></label>
+        <input asp-for="ConfirmPassword" class="form-control" />
+        <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+    </div>
+    <div><button type="submit" class="btn btn-primary mt-2">Save</button></div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+</form>
+@if (ViewBag.RegisteredResult == "Yes")
+{
+    <div class="alert alert-success mt-2 offset-3 col-6" role="alert">
+        Your account was successfully registered
+    </div>
+}
+@if (ViewBag.RegisteredResult == "No")
+{
+    <div class="alert alert-danger mt-2 offset-3 col-6" role="alert">
+        Internal Error: The user has not been created!
+    </div>
+}

@@ -5,52 +5,57 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DailyCostWebApplication
 build_property.RootNamespace = DailyCostWebApplication
-build_property.ProjectDir = D:\Projects_\DailyCostWebApplication\DailyCostWebApplication\
+build_property.ProjectDir = C:\Projects\DailyCostWebApplication\DailyCostWebApplication\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Projects_\DailyCostWebApplication\DailyCostWebApplication
+build_property.MSBuildProjectDirectory = C:\Projects\DailyCostWebApplication\DailyCostWebApplication
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Category/Index.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Category/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0ZWdvcnlcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Create.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Detail.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Detail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Index.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Update.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Cost/Update.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29zdFxVcGRhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Home/Index.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Shared/Error.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/Shared/_MainLayout.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/Shared/_MainLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NYWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/_ViewImports.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/UserManagment/CreateUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1hbmFnbWVudFxDcmVhdGVVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Projects_/DailyCostWebApplication/DailyCostWebApplication/Views/_ViewStart.cshtml]
+[C:/Projects/DailyCostWebApplication/DailyCostWebApplication/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
