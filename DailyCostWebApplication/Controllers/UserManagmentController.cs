@@ -56,7 +56,7 @@ namespace DailyCostWebApplication.Controllers
         {
             if (ModelState.IsValid)
             {
-                var result = await signInManager.PasswordSignInAsync(signIn.Email, signIn.Password, signIn.RememberMe, false);
+                var result = await signInManager.PasswordSignInAsync(signIn.Email, signIn.Password, signIn.RememberMe, true);
                 if(result.Succeeded)
                 {
                     return RedirectToAction("Index", "Home");

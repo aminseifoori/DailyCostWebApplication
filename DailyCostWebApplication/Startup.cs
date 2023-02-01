@@ -32,7 +32,26 @@ namespace DailyCostWebApplication
         {
             services.AddDbContextPool<WebAppDBContext>
                 (options=> options.UseSqlServer(Configuration.GetConnectionString("CostDBConnectionSQLServer")));
-            services.AddIdentity<IdentityUser, IdentityRole>().AddEntityFrameworkStores<WebAppDBContext>();
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>
+            {
+                options.Password.RequiredLength = 3;
+                options.Password.RequireLowercase = false;
+                options.Password.RequireUppercase = false;
+                options.Password.RequireDigit = true;
+                options.Password.RequireNonAlphanumeric = false;
+                options.Lockout.MaxFailedAccessAttempts = 3;
+                options.Lockout.DefaultLockoutTimeSpan= TimeSpan.FromMinutes(1);
+            }).AddEntityFrameworkStores<WebAppDBContext>();
+
+            //services.Configure<IdentityOptions>(options =>
+            //{
+            //    options.Password.RequiredLength = 3;
+            //    options.Password.RequireLowercase = false;
+            //    options.Password.RequireUppercase = false;
+            //    options.Password.RequireDigit = true;
+            //    options.Password.RequireNonAlphanumeric = false;
+            //});
+
             services.AddControllersWithViews();
             services.AddScoped<ICostRepository, SQLServerCostRepository>();
             services.AddScoped<ICategoryRepository, SQLServerCategoryRepository>();
